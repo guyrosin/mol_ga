@@ -12,7 +12,7 @@ authors = [
 description = "Simple genetic algorithms for 2D molecular design."
 keywords = ["genetic algorithm", "molecule", "chemistry"]
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.12"
 license = {file = "LICENSE"}
 dynamic = ["version"]  # version is set from git tags
 
@@ -48,7 +48,7 @@ line-length = 120
 include = '\.pyi?$'
 
 [tool.mypy]
-python_version = 3.9  # pin modern python version
+python_version = "3.12"  # pin modern python version
 ignore_missing_imports = true
 
 [tool.ruff]
